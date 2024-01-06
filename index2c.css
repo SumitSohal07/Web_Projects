@@ -1,0 +1,28 @@
+h2{
+    color: brown;
+}
+span{
+    color: brown;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 100px;
+    display: inline-block;
+    padding: 30px;
+    justify-content: center;
+    
+}
+
+.card img{  
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
