@@ -1,0 +1,62 @@
+
+body {
+    background-color: palegoldenrod;
+    border: solid black 2px;
+}
+
+.container {
+    width: 100%;
+}
+
+.Amazon{
+    margin-bottom: 15px ;
+    width: 100%;
+    display: inline-flex;
+}
+
+.name{
+    width: 50%;
+}
+.image{
+    width: 50%;
+    text-align: center;
+
+    /* height: 100px;
+    width: 300px; */
+}
+.pic{
+
+    max-width: 100%;
+    
+    
+    /* max-height: 100%; */
+    /* height: auto; */
+}
+
+.intro {
+    text-align: left;
+}
+
+.head, .name, .content {
+    font-family: Arial;
+    color: #111;
+    line-height: 20px;
+}
+
+.head {
+    padding: 3px 12px 2px;
+    font-size: 18px;
+}
+
+
+.name {
+    padding: 3px 12px 2px;
+    font-size: 15px;
+}
+
+.content {
+    padding: 0px 8px 23px;
+    font-size: 15px;
+}
+
+/* Add other styles as needed for .lang, .proof, .study, .contact, etc. */
