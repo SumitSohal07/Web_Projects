@@ -1,0 +1,36 @@
+html for currency conversion
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="input-container">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" placeholder="Enter amount">
+            <select id="currencyFrom">
+                <option value="USD">USD</option>
+                <option value="CAD">CAD</option>
+            </select>
+        </div>
+        <div class="output-container">
+            <label for="result">Converted Amount:</label>
+            <input type="text" id="result" readonly>
+            <select id="currencyTo">
+                <option value="CAD">CAD</option>
+                <option value="USD">USD</option>
+            </select>
+        </div>
+        <button onclick="convertCurrency()">Convert</button>
+    </div>
+
+     <!-- linking script.js file -->
+     <script src="../java script/index.js"></script>
+</body>
+</html>
+
